@@ -1,4 +1,5 @@
 // Melakukan perhitungan dasar nilai murid
+// DONE
 
 #include <stdio.h>
 #include <math.h>
@@ -43,14 +44,6 @@ int maxminGrades(int arr[], int size, int *min_grades, int *max_grades) {
         }
     }
 }
-
-// int remedialStudents(int arr[], int size, int *j) {
-//     for (int i = 0; i < size; i++) {
-//         if (arr[i] > 0){
-//             printf("%d", arr[i]);
-//         }
-//     }
-// }
 
 int main() {
     int num_of_students;
